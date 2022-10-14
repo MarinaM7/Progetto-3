@@ -1,0 +1,106 @@
+body {
+    background: url(https://1.bp.blogspot.com/-Q6f0UrfQQAI/XdkrzqrZXNI/AAAAAAAAC8o/BkhmZCft6_snCp_Ppu8Jt7OtdkqNlyILQCLcBGAsYHQ/s1600/apps.51232.14176082463109974.f84fc39e-bc64-44f3-9851-edbbe1a9d810.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: #2a3833;
+    text-shadow: 5px 5px 5px #92a694;
+    text-decoration: underline 4px;
+}
+
+h2{
+    color: #faebd7;
+    text-shadow: 2px 2px 4px #727257;
+}
+
+.red {
+    background-color: #813e3e;
+}
+
+.red:hover {
+    background-color: #8c2323;
+}
+
+.yellow {
+    background-color: #d3cd74;
+}
+
+.yellow:hover {
+    background-color: #ded33a;
+
+}
+
+.equal {
+    background-color: #6eae98;
+}
+
+.equal:hover {
+    background-color: #5ef1be;
+
+}
+
+.operazione{
+    background-color: #dbe3e3;
+}
+
+.operazione:hover {
+    background-color: #a5a7a7;
+
+}
+
+#total {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px #3a3a3a;
+    width: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #2a3833;
+    position: relative;
+}
+
+#topBox{
+    text-align: center;
+}
+
+
+#empty {
+    width: 85%;
+    height: 60px;
+    border-radius: 15px;
+    text-align: end;
+    padding-right: 15px;
+    font-size: 22pt;
+    background-color: #92a694;
+    color: #f8eee1;
+}
+
+#empty::placeholder {
+    color: #f8eee1;
+}
+
+button {
+    border-radius: 15px;
+    background-color: #afaf94;
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: #b9e2a8;
+}
+
+#calcul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 15px;
+}
+
+.zero {
+    grid-column: 1/3;
+}
+
+p {
+    font-size: 14pt;
+}
